@@ -9,8 +9,8 @@ import Foundation
 
 class SDK {
     
-    func hello() {
+    func hello(who: NSString) {
         
-        print("Hello!")
+        NSLog("Hello %s !", who)
     }
 }
