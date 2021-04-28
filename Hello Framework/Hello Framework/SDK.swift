@@ -7,9 +7,11 @@
 
 import Foundation
 
-class SDK {
+public class SDK {
     
-    func hello(who: NSString) -> NSString {
+    public init(){}
+    
+    public func hello(who: NSString) -> NSString {
         
         NSLog("Hello %s !", who)
         return who

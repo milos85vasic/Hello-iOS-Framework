@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5828EAE263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */; };
+		F5828EAF263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */; };
+		F5828EB0263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */; };
+		F5828EB1263991E300B28390 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5828EAD263991E300B28390 /* Hello_Framework.framework */; };
+		F5828EB2263991E300B28390 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5828EAD263991E300B28390 /* Hello_Framework.framework */; platformFilter = ios; };
+		F5828EB3263991E300B28390 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5828EAD263991E300B28390 /* Hello_Framework.framework */; platformFilter = ios; };
 		F5F7FC4B26382B3D00CD89C2 /* Framework_TryoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7FC4A26382B3D00CD89C2 /* Framework_TryoutApp.swift */; };
 		F5F7FC4D26382B3D00CD89C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7FC4C26382B3D00CD89C2 /* ContentView.swift */; };
 		F5F7FC4F26382B4000CD89C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F7FC4E26382B4000CD89C2 /* Assets.xcassets */; };
@@ -33,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Hello_Framework.framework.dSYM; sourceTree = "<group>"; };
+		F5828EAD263991E300B28390 /* Hello_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hello_Framework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Hello_Framework-asgucqqepoincdbrplvzxuvogtet/Build/Products/Release-iphonesimulator/Hello_Framework.framework"; sourceTree = "<group>"; };
 		F5F7FC4726382B3D00CD89C2 /* Framework Tryout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framework Tryout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F7FC4A26382B3D00CD89C2 /* Framework_TryoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_TryoutApp.swift; sourceTree = "<group>"; };
 		F5F7FC4C26382B3D00CD89C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5828EB1263991E300B28390 /* Hello_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5828EB2263991E300B28390 /* Hello_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +76,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5828EB3263991E300B28390 /* Hello_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5828E882639869D00B28390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5F7FC3E26382B3D00CD89C2 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +97,7 @@
 				F5F7FC5B26382B4000CD89C2 /* Framework TryoutTests */,
 				F5F7FC6626382B4000CD89C2 /* Framework TryoutUITests */,
 				F5F7FC4826382B3D00CD89C2 /* Products */,
+				F5828E882639869D00B28390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +114,8 @@
 		F5F7FC4926382B3D00CD89C2 /* Framework Tryout */ = {
 			isa = PBXGroup;
 			children = (
+				F5828EAD263991E300B28390 /* Hello_Framework.framework */,
+				F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */,
 				F5F7FC4A26382B3D00CD89C2 /* Framework_TryoutApp.swift */,
 				F5F7FC4C26382B3D00CD89C2 /* ContentView.swift */,
 				F5F7FC4E26382B4000CD89C2 /* Assets.xcassets */,
@@ -235,6 +256,7 @@
 			files = (
 				F5F7FC5226382B4000CD89C2 /* Preview Assets.xcassets in Resources */,
 				F5F7FC4F26382B4000CD89C2 /* Assets.xcassets in Resources */,
+				F5828EAE263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5828EAF263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5828EB0263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -421,6 +445,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Framework Tryout/Preview Content\"";
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+				);
 				INFOPLIST_FILE = "Framework Tryout/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +471,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Framework Tryout/Preview Content\"";
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+				);
 				INFOPLIST_FILE = "Framework Tryout/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +495,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+				);
 				INFOPLIST_FILE = "Framework TryoutTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,6 +521,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+				);
 				INFOPLIST_FILE = "Framework TryoutTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +546,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+				);
 				INFOPLIST_FILE = "Framework TryoutUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +570,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+				);
 				INFOPLIST_FILE = "Framework TryoutUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
