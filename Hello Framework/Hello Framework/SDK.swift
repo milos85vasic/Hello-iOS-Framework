@@ -8,12 +8,14 @@
 import Foundation
 
 public class SDK {
-    
-    public init(){}
-    
-    public func hello(who: NSString) -> NSString {
+
+    public init() {
         
-        NSLog("Hello %s !", who)
-        return who
+        NSLog("SDK is ready")
+    }
+
+    public func hello(who: NSString) {
+
+        NSLog("Hello \(who)", who)
     }
 }

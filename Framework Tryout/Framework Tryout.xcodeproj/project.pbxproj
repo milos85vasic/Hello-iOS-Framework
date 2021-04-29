@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5828EAE263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */; };
-		F5828EAF263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */; };
-		F5828EB0263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */; };
-		F5828EB1263991E300B28390 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5828EAD263991E300B28390 /* Hello_Framework.framework */; };
-		F5828EB2263991E300B28390 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5828EAD263991E300B28390 /* Hello_Framework.framework */; platformFilter = ios; };
-		F5828EB3263991E300B28390 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5828EAD263991E300B28390 /* Hello_Framework.framework */; platformFilter = ios; };
+		F57CE7FC263AC96000C9E181 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57CE7FA263AC96000C9E181 /* Hello_Framework.framework */; platformFilter = ios; };
+		F57CE7FD263AC96000C9E181 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57CE7FA263AC96000C9E181 /* Hello_Framework.framework */; platformFilter = ios; };
+		F57CE7FE263AC96800C9E181 /* Hello_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57CE7FA263AC96000C9E181 /* Hello_Framework.framework */; };
+		F57CE7FF263AC96800C9E181 /* Hello_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F57CE7FA263AC96000C9E181 /* Hello_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5F7FC4B26382B3D00CD89C2 /* Framework_TryoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7FC4A26382B3D00CD89C2 /* Framework_TryoutApp.swift */; };
 		F5F7FC4D26382B3D00CD89C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7FC4C26382B3D00CD89C2 /* ContentView.swift */; };
 		F5F7FC4F26382B4000CD89C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F7FC4E26382B4000CD89C2 /* Assets.xcassets */; };
@@ -38,9 +36,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F57CE7E7263AC54900C9E181 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F57CE7FF263AC96800C9E181 /* Hello_Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Hello_Framework.framework.dSYM; sourceTree = "<group>"; };
-		F5828EAD263991E300B28390 /* Hello_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hello_Framework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Hello_Framework-asgucqqepoincdbrplvzxuvogtet/Build/Products/Release-iphonesimulator/Hello_Framework.framework"; sourceTree = "<group>"; };
+		F57CE7FA263AC96000C9E181 /* Hello_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Hello_Framework.framework; sourceTree = "<group>"; };
 		F5F7FC4726382B3D00CD89C2 /* Framework Tryout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framework Tryout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F7FC4A26382B3D00CD89C2 /* Framework_TryoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_TryoutApp.swift; sourceTree = "<group>"; };
 		F5F7FC4C26382B3D00CD89C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5828EB1263991E300B28390 /* Hello_Framework.framework in Frameworks */,
+				F57CE7FE263AC96800C9E181 /* Hello_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5828EB2263991E300B28390 /* Hello_Framework.framework in Frameworks */,
+				F57CE7FC263AC96000C9E181 /* Hello_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5828EB3263991E300B28390 /* Hello_Framework.framework in Frameworks */,
+				F57CE7FD263AC96000C9E181 /* Hello_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +125,7 @@
 		F5F7FC4926382B3D00CD89C2 /* Framework Tryout */ = {
 			isa = PBXGroup;
 			children = (
-				F5828EAD263991E300B28390 /* Hello_Framework.framework */,
-				F5828EAC263991E300B28390 /* Hello_Framework.framework.dSYM */,
+				F57CE7FA263AC96000C9E181 /* Hello_Framework.framework */,
 				F5F7FC4A26382B3D00CD89C2 /* Framework_TryoutApp.swift */,
 				F5F7FC4C26382B3D00CD89C2 /* ContentView.swift */,
 				F5F7FC4E26382B4000CD89C2 /* Assets.xcassets */,
@@ -161,6 +171,7 @@
 				F5F7FC4326382B3D00CD89C2 /* Sources */,
 				F5F7FC4426382B3D00CD89C2 /* Frameworks */,
 				F5F7FC4526382B3D00CD89C2 /* Resources */,
+				F57CE7E7263AC54900C9E181 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,7 +267,6 @@
 			files = (
 				F5F7FC5226382B4000CD89C2 /* Preview Assets.xcassets in Resources */,
 				F5F7FC4F26382B4000CD89C2 /* Assets.xcassets in Resources */,
-				F5828EAE263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5828EAF263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5828EB0263991E300B28390 /* Hello_Framework.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -447,6 +455,18 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
 					"$(PROJECT_DIR)/Framework\\ Tryout",
 				);
 				INFOPLIST_FILE = "Framework Tryout/Info.plist";
@@ -474,6 +494,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
 				);
 				INFOPLIST_FILE = "Framework Tryout/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -497,6 +529,12 @@
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
 					"$(PROJECT_DIR)/Framework\\ Tryout",
 				);
 				INFOPLIST_FILE = "Framework TryoutTests/Info.plist";
@@ -524,6 +562,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
 				);
 				INFOPLIST_FILE = "Framework TryoutTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -549,6 +593,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
 				);
 				INFOPLIST_FILE = "Framework TryoutUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -572,6 +622,12 @@
 				DEVELOPMENT_TEAM = 3JU5T2SY3C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
+					"$(PROJECT_DIR)/Framework\\ Tryout",
 					"$(PROJECT_DIR)/Framework\\ Tryout",
 				);
 				INFOPLIST_FILE = "Framework TryoutUITests/Info.plist";

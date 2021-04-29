@@ -6,13 +6,20 @@
 //
 
 import SwiftUI
-// import Hello_Framework
+import Hello_Framework
 
 struct ContentView: View {
     
     var body: some View {
+        
         Text("Hello, world!")
             .padding()
+            .onAppear {
+                
+                let sdk = SDK()
+                NSLog("UI ready")
+                sdk.hello(who: "Dr. Smith")
+            }
     }
 }
 
